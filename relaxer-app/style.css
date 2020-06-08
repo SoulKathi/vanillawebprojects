@@ -21,8 +21,8 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   position: relative;
   transform: scale(1);
 }
@@ -47,8 +47,8 @@ body {
     #336d62 50%,
     #2a5b52 100%
   );
-  height: 320px;
-  width: 320px;
+  height: 220px;
+  width: 220px;
   z-index: -2;
   border-radius: 50%;
   position: absolute;
@@ -67,9 +67,9 @@ body {
 .pointer-container {
   position: absolute;
   top: -40px;
-  left: 140px;
+  left: 90px;
   width: 20px;
-  height: 190px;
+  height: 140px;
   animation: rotate 12s linear forwards infinite;
   transform-origin: bottom center;
 }
