@@ -25,8 +25,6 @@ body {
   margin: auto;
   width: 60vmin;
   height: 60vmin;
-  max-width: 300px;
-  max-height: 300px;
   position: relative;
   transform: scale(1);
 }
@@ -53,8 +51,6 @@ body {
   );
   width: calc(60vmin + 20px);
   height: calc(60vmin + 20px);
-  max-width: 320px;
-  max-height: 320px;
   z-index: -2;
   border-radius: 50%;
   position: absolute;
@@ -72,12 +68,12 @@ body {
 
 .pointer-container {
   position: absolute;
-  top: -40px;
-  left: 90px;
+  bottom: calc(30vmin);
+  left: calc(50% - 10px);
   width: 20px;
-  height: 140px;
-  animation: rotate 12s linear forwards infinite;
+  height: calc(30vmin + 15px);
   transform-origin: bottom center;
+  animation: rotate 12s linear forwards infinite;
 }
 
 @keyframes rotate {
