@@ -14,6 +14,8 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
@@ -21,8 +23,10 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
-  height: 200px;
-  width: 200px;
+  width: 60vmin;
+  height: 60vmin;
+  max-width: 300px;
+  max-height: 300px;
   position: relative;
   transform: scale(1);
 }
@@ -47,8 +51,10 @@ body {
     #336d62 50%,
     #2a5b52 100%
   );
-  height: 220px;
-  width: 220px;
+  width: calc(60vmin + 20px);
+  height: calc(60vmin + 20px);
+  max-width: 320px;
+  max-height: 320px;
   z-index: -2;
   border-radius: 50%;
   position: absolute;
